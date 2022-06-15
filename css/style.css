@@ -1,0 +1,62 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.8rem;
+    padding: 0 4.8rem;
+    color: #ffffff;
+}
+.header-name{
+    align-items: center;
+
+}
+.navbar{
+    box-shadow: 2px 2px 5px #000000bb;
+    background: rgba(0, 0, 0, 0.5);
+}
+.navbar .nav-item{
+    font-size: 1.0rem;
+    padding-right: 1.4rem;
+    font-weight: bolder;
+    
+}
+.middle-img{
+    border: 5px solid #c5bfbf
+}
+#block-text{
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    
+}
+#showcase {
+    position: relative;
+    
+    min-height: 600px; }
+    #showcase .primary-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; 
+      background-image: url("../img/bgimg.webp");
+      
+
+    }
+#aboutMe{
+    background-image: url("../img/Squad2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    min-height: 700px;
+
+    
+}
+.foredrop{
+    
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}

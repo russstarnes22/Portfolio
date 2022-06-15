@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">   
+        <nav class="navbar navbar-expand-md navbar-light fixed-top py-2">
+            <div class="container">
+                <a href="#home" class="navbar-brand">
+                    <h2 class="header-name text-white">David Starnes</h2>
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link text-white">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link text-white">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link text-white">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--SHOWCASE-->
+
+    <section id="showcase" class="py-2 mb-5">
+        <div class="primary-overlay text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 text-center mt-5">
+                        <h2 class="display-2 mt-5 tp-5">Welcome To My Page</h2>
+                        <p class="lead"></p> 
+                    </div>
+                    <div class="col-lg-5">
+                        <img src="img/Asta Anime.jpeg" alt="" class="img-fluid rounded-circle py-4 d-none d-lg-block">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--ABOUT ME-->
+    <section id="aboutMe" class=" text-muted ">
+        <div class="foredrop">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-md">
+                        <img src="img/first nightmission.jpeg" alt="" height="450">
+                    </div>
+                    <div id="block-text" class="col-md-7 text-black text-right py-5">
+                        <p>
+                            Purple Heart Veteran, Served in the United States Army 4 years active duty. Stationed at Fort Riley, Kansas, and 
+                            a 1 year deployment to Kandahar, Afghanistan.
+                        </p>
+                        <p>
+                            Pursing a degree in Web and Mobile Marketing Development, will graduate by August 2022.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    <!-- FOOTER -->
+
+  <footer id="main-footer" class="py-1 text-black">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md ml-auto">
+          <p class="lead">
+            Copyright &copy;
+            <span id="year"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    
+
+
+
+    
+
+
+
+    
+       
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" 
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" 
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+crossorigin="anonymous"></script>
+
+<script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear())
+  </script>
+</body>
+</html>
