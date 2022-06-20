@@ -48,7 +48,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     
-    min-height: 700px;
+    min-height: 1200px;
 
     
 }
@@ -60,3 +60,25 @@
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
 }
+
+#imgMe{
+    top: 0;
+}
+
+#home-heading {
+    position: relative;
+    min-height: 600px;
+    background: url('../img/scoping\ out.jpeg');
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+  }
+  #career {
+      position: relative;
+      min-height: 600px;
+      background: url('../img/bgimg.webp')
+      
+    }
